@@ -14,27 +14,36 @@ body {
 main {
   background-color: white;
   width: 400px;
-  height: 400px;
+  height: 450px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 3px;
+  text-align: center;
 }
 
 h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 26px;
+  font-size: 32px;
   font-weight: lighter;
   color: dimgrey;
   text-align: center;
-  padding-top: 35px;
-  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 label {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   padding-bottom: 12px;
+  padding-left: 38px;
+  text-align: left;
 }
 
 input {
@@ -42,7 +51,8 @@ input {
   border: 2px solid lightgrey;
   border-radius: 3px;
   padding: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  font-size: 16px;
 }
 
 .email, .password {
@@ -53,10 +63,36 @@ button {
   display: block;
   width: 320px;
   height: 55px;
-  background-color: #3CB371;
-  border: 2px solid #3CB371;
+  background-color: #15CD72;
+  border: 2px solid #15CD72;
   border-radius: 3px;
   color: white;
   font-size: 20px;
   padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.forgot-password {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: grey;
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.log-in {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  padding-top: 8px;
+}
+
+a .log-in-link {
+  color: white;
 }
