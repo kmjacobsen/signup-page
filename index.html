@@ -12,22 +12,20 @@
     </section>
 
     <main class="sign-up">
-      <form class="sign-up-form" action="/signup" accept-charset="UTF-8" method="post">
+      <form class="sign-up-form" action="/signup" method="post">
         <h1>Sign Up</h1>
-        <label for="email" class="email" required>Email</label>
-        <input type="email" name="email" placeholder="foo@bar.com" required />
-        <label for="password" class="password" required>Password</label>
-        <input type="text" label="false" name="password" id="password" placeholder="1234passw0rd" required />
-        <button type="button" name="submit-button">Sign up</button>
-      </div>
+        <label for="email" class="email">Email</label>
+        <input type="email" name="email" placeholder="foo@bar.com" required>
+        <label for="password" class="password">Password</label>
+        <input type="password" label="false" name="password" placeholder="1234passw0rd" required>
+        <button type="submit" name="submit-button">Sign up</button>
+      </form>
       <a href="/forgot-password/new" class="forgot-password">Forgot password?</a>
     </main>
 
     <section class="log-in">
       <p>Already have an account? <a href="/login" class="log-in-link">Log In</a></p>
     </section>
-
-
 
   </body>
 </html>
